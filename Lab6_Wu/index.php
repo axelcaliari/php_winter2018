@@ -1,19 +1,3 @@
-<?php
-if (!isset($_COOKIE["request"]) || empty($_COOKIE["request"])) {
-    setcookie("request", json_encode(array(
-        "GET count" => 0,
-        "POST count" => 0,
-        "PUT count" => 0,
-        "PATCH count" => 0,
-        "DELETE count" => 0,
-        "GET" => [],
-        "POST" => [],
-        "PUT" => [],
-        "PATCH" => [],
-        "DELETE" => []
-    )),time() + 3600);
-}
-?>
 <html lang="en">
 <head>
     <title>Simple API</title>
@@ -33,37 +17,22 @@ if (!isset($_COOKIE["request"]) || empty($_COOKIE["request"])) {
      function startTimer() {
          timer = setInterval(function(){
              var xhttp = new XMLHttpRequest();
-             var pre = document.createElement("pre");
-
              xhttp.onreadystatechange = function () {
-                 var content = document.createTextNode(this.response);
-                 pre.appendChild(content);
                  if (this.readyState == 4 && this.status == 200) {
+                     var pre = document.createElement("pre");
+                     var content = document.createTextNode(this.response);
+                     pre.appendChild(content);
                      document.getElementById("result").appendChild(pre);
                  }
              };
              var value = parseInt(Math.random()*100 + "", 10);
-             var httpType = getHTTPType(value);
-             xhttp.open(httpType, "requestCountAPI.php?value=" + value, true);
+             xhttp.open("GET", "requestCountAPI.php?value=" + value, true);
              xhttp.send(null);
-         }, 2000);
+         }, 1000);
      }
 
      var stopTimer = function() {
          clearInterval(timer);
-     }
-
-     function getHTTPType(value) {
-         if (value <= 20)
-             return "GET";
-         else if (value > 20 && value <= 40)
-             return "POST";
-         else if (value > 40 && value <= 60)
-             return "PUT";
-         else if (value > 60 && value <= 80)
-             return "PATCH";
-         else
-             return "DELETE";
      }
 
 </script>
