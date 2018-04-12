@@ -10,7 +10,7 @@
  * AJAX requests to it and display the result as a string in the Web page.
  *
  */
-$requestCount = array(
+$request = array(
     "GET count" => 0,
     "POST count" => 0,
     "PUT count" => 0,
@@ -22,12 +22,12 @@ if(isset($_SERVER['REQUEST_METHOD'])) {
 
     switch($_SERVER['REQUEST_METHOD'])
     {
-        case 'GET': $requestCount['GET count']++; break;
-        case 'POST': $requestCount['POST count']++; break;
-        case 'PUT': $requestCount['PUT count']++; break;
-        case 'PATCH': $requestCount['PATCH count']++; break;
-        case 'DELET': $requestCount['DELET count']++; break;
+        case 'GET': $request['GET count']++; $request["GET"] = $_GET; break;
+        case 'POST': $request['POST count']++; $request["GET"] = $_POST; break;
+        case 'PUT': $request['PUT count']++; $request["GET"] = $_PUT; break;
+        case 'PATCH': $request['PATCH count']++; $request["GET"] = $_PATCH; break;
+        case 'DELETE': $request['DELET count']++; $request["GET"] = $_DELETE; break;
     }
 
-    echo json_encode($requestCount);
+    echo json_encode($request);
 }
