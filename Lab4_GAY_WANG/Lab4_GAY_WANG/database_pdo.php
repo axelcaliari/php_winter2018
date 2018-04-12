@@ -14,7 +14,7 @@ function getConnection()
     
     if ($link === NULL) {
         try {
-			$link = new PDO('localhost:3307;lightmvctestdb','lightmvcuser','testpass'); 
+			$link = new PDO('mysql:host=localhost;dbname=lightmvctestdb', 'lightmvcuser', 'testpass');
 			foreach($link->query('SELECT * from `customers`') as $row) {
 				print_r($row);
 			}
@@ -62,6 +62,8 @@ function getCustomers(array $where = array(), $andOr = 'AND')
     $link = getConnection();
 	//$result = mysqli_query($link, $query); supposed to be mysqli_query($query,$link)?
 	$result = $link->query($query);
+
+	// This should be PDO!
     return mysqli_fetch_all($result);
 }
 
