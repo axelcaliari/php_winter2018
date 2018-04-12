@@ -1,3 +1,5 @@
+<?php
+
 function fibo($length)
 {
  $a = 0;

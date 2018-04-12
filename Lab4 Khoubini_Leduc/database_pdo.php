@@ -6,49 +6,48 @@
  * http://php.net/manual/en/book.pdo.php
  */
 
-class pdo
+// Cannot declare again the PDO class!
+class customPDO
 {
 	// Declaration des variables
-private $user = 'lightmvcuser';
-private $pass = 'testpass';
-private $dsn = 'mysql:host=localhost;port:8889;dbname=lightmvctestdb';
-private $db= null;
-private static $instance = null;
+    private $user = 'lightmvcuser';
+    private $pass = 'testpass';
+    private $dsn = 'mysql:host=localhost;port=3307;dbname=lightmvctestdb';
+    private $db= null;
+    private static $instance = null;
 	
 	
-	private function pdo::__construct(){
+	public function __construct()
+    {
 		try{
-			this->$db = new PDO($dsn, $user, $pass);
-    }
-		}catch(PDOException $e){
+			$this->db = new PDO($this->dsn, $this->user, $this->pass);
+		} catch(PDOException $e) {
 			print "Error!" . $e->getMessage() . "<br>";
 			die();
 		}
 	}
 
-    function getCustomers(array $where = array(), $andOr = 'AND')
+    public function getCustomers(array $where = array(), $andOr = 'AND')
     {
         $query = 'SELECT `id`,`firstname`,`lastname` FROM `customers`';
         if ($where) {
             $query .= ' WHERE ';
             foreach ($where as $column => $value) {
-                $query .= $column . ' = ' . getQuote() . $value . getQuote() . ' ' . $andOr;
+                $query .= $column . ' = ' . $this->db->quote($value) . ' ' . $andOr;
             }
             $query = substr($query, 0, -(strlen($andOr)));
         }
       
-        $query = this->$db->prepare($query);
-        $query->execute($query);
+        $query = $this->db->prepare($query);
+
+        $query->execute();
       
-        $result = $query;
-        $query = null;
-        
-        return $result->fetchAll();
+        return $query->fetchAll(PDO::FETCH_NUM);
     }
 
 }
 
-$db_pdo = pdo();
+$db_pdo = new customPDO();
 
 $myArray = $db_pdo->getCustomers(array('id' => '3'));
 
