@@ -1,0 +1,32 @@
+/*
+ * Create a simple API that will count every HTTP request that is sent to it and return the
+ * value in JSON format. Also, create a simple JS periodical updater function that will send
+ * AJAX requests to it and display the result as a string in the Web page.
+ */
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> 
+		<script>
+			 setInterval(function(){ 
+				$.ajax({
+					url: 'counter_file.php',
+					data: {counter: $('#counter').val()},
+					dataType: 'json',
+					type: 'post',
+					success : function(result){
+						$('#counter').val(result);
+						$('#counter').text(result + " requests");
+					}
+				});
+			}, 2000);
+		</script>
+	</head>
+	<body>
+		<title>Lab6</title>
+		<h1>Lab6 : counter of HTTP requests</h1>
+		<p id='counter'>0 requests</p>
+	</body>
+</html>
