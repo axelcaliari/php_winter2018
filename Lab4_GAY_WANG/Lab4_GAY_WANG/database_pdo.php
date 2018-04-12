@@ -6,7 +6,6 @@
  * http://php.net/manual/en/book.pdo.php
  */
  
-
 function getConnection()
 {
     if (!isset($link)) {
@@ -14,13 +13,18 @@ function getConnection()
     }
     
     if ($link === NULL) {
-		try{			
-			$link = new PDO('mysql:host=localhost;dbname=lightmvctestdb', 'lightmvctestdb', 'testpass');
-		}catch(PDOException $e){
-			echo "Error" . $e->getMessage();
+        try {
+			$link = new PDO('mysql:host=localhost;dbname=lightmvctestdb', 'lightmvcuser', 'testpass');
+			foreach($link->query('SELECT * from `customers`') as $row) {
+				print_r($row);
+			}
+			$link = NULL;
+		} catch (PDOException $e) {
+			print "Error!: " . $e->getMessage() . "<br/>";
+			die();
 		}
     }
-    return $link;
+    return $link;    
 }
 
 function closeConnection()
@@ -29,7 +33,7 @@ function closeConnection()
         static $link = NULL;
         return FALSE;
     } else {
-		$link->connection = NULL;
+        $link = NULL;
         return TRUE;
     }
 }
@@ -39,7 +43,10 @@ function getQuote()
     return "'";
 }
 
-// SELECT `id`,`firstname`,`lastname` FROM `customers` WHERE x=y
+
+
+
+// SELECT `id`,`firstname`,`lastname` FROM `customers` WHERE x=y 
 // $where = [key = column name, value = data]
 // $andOr = AND | OR
 function getCustomers(array $where = array(), $andOr = 'AND')
@@ -47,25 +54,30 @@ function getCustomers(array $where = array(), $andOr = 'AND')
     $query = 'SELECT `id`,`firstname`,`lastname` FROM `customers`';
     if ($where) {
         $query .= ' WHERE ';
-        foreach ($where as $column => $value) {
-            $query .= $column . ' = ' . getQuote() . $value . getQuote() . ' ' . $andOr;
+        foreach ($where->query($query) as $column => $value) {
+            $query .= $column . ' = ' . $where->quote($value) . ' ' . $andOr;
         }
         $query = substr($query, 0, -(strlen($andOr)));
     }
     $link = getConnection();
-	$reponse = $link->query($query, PDO::FETCH_ASSOC);
+	//$result = mysqli_query($link, $query); supposed to be mysqli_query($query,$link)?
+	$result = $link->query($query);
 
-	return $reponse->fetch();
+	// This should be PDO!
+    return mysqli_fetch_all($result);
 }
 
 $myArray = getCustomers(array('id' => '3'));
+
 closeConnection();
 
 $htmlOut = "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<table>\n";
 
-foreach ($myArray as $key => $value) {
-    $htmlOut .= "\t<tr>\n";	
-    $htmlOut .= "\t\t<td align=\"center\">$key : $value</td>\n";
+foreach ($myArray as $tableRow) {
+    $htmlOut .= "\t<tr>\n";
+    foreach ($tableRow as $tableCol) {
+        $htmlOut .= "\t\t<td align=\"center\">$tableCol</td>\n";
+    }
     $htmlOut .= "\t</tr>\n";
 }
 

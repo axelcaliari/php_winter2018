@@ -7,4 +7,6 @@
  *
  * Please explain: first one is an addition, then it's a concatenation
  *
+ * The comma separates echo's parameters and acts as a concatenation operator in this context.
+ *
  */

@@ -8,9 +8,9 @@ echo 'ValueA is equal to ValueB <br />' . PHP_EOL;
 
 if($valueA > $valueB){
     echo "valueA > valueB";
-} else if ($valueA < $valueB){
+} elseif ($valueA < $valueB){
     echo "valueA < valueB";
-} else{
+} else {
     echo "equals";
 }
 

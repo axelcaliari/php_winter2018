@@ -6,41 +6,26 @@
  * http://php.net/manual/en/book.pdo.php
  */
 
-class database_pdo
+// Cannot declare again the PDO class!
+class customPDO
 {
-    // pdo instance
-    private $db = null;
-    // database_pdo instance (singleton)
+	// Declaration des variables
+    private $user = 'lightmvcuser';
+    private $pass = 'testpass';
+    private $dsn = 'mysql:host=localhost;port=3307;dbname=lightmvctestdb';
+    private $db= null;
     private static $instance = null;
-
-    private $user = "lightmvcuser";
-    private $pass = "testpass";
-
-    private function __construct()
+	
+	
+	public function __construct()
     {
-        try
-        {
-            $this->db = new PDO('mysql:host=localhost;port=3307;dbname=lightmvctestdb', $this->user, $this->pass);
-        }catch(PDOException $e)
-        {
-           echo $e->getMessage();
-        }
-    }
-
-    //singleton
-    public static function getInstance()
-    {
-        if(is_null(self::$instance))
-        {
-            self::$instance = new database_pdo();
-        }
-        return self::$instance;
-    }
-
-    public static function closeInstance()
-    {
-        self::$instance = null;
-    }
+		try{
+			$this->db = new PDO($this->dsn, $this->user, $this->pass);
+		} catch(PDOException $e) {
+			print "Error!" . $e->getMessage() . "<br>";
+			die();
+		}
+	}
 
     public function getCustomers(array $where = array(), $andOr = 'AND')
     {
@@ -52,24 +37,23 @@ class database_pdo
             }
             $query = substr($query, 0, -(strlen($andOr)));
         }
-
+      
         $query = $this->db->prepare($query);
-        $query->execute();
 
-        // NOTE: By default, PDO fetches both numeric and associative keys.
+        $query->execute();
+      
         return $query->fetchAll(PDO::FETCH_NUM);
     }
+
 }
 
+$db_pdo = new customPDO();
 
-$database_pdo = database_pdo::getInstance();
+$myArray = $db_pdo->getCustomers(array('id' => '3'));
 
-$myArray = $database_pdo->getCustomers(array('id' => '3'));
-
-$database_pdo->closeInstance();
+$db_pdo = null;
 
 $htmlOut = "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<table>\n";
-
 foreach ($myArray as $tableRow) {
     $htmlOut .= "\t<tr>\n";
     foreach ($tableRow as $tableCol) {
@@ -77,7 +61,5 @@ foreach ($myArray as $tableRow) {
     }
     $htmlOut .= "\t</tr>\n";
 }
-
 $htmlOut .= "</table>\n</body>\n</html>";
-
 echo $htmlOut;
