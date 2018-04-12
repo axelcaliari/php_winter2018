@@ -16,8 +16,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'Doug', '$2y$10$RqDJ45m2QNKxWHR1lhEpOO65LdszHZsc1SxbG4ov02nDIb93HNVqW'),
-(2, 'Andrew', '$2y$10$cAyp6VyS/urXmQXdHIlUPe.nZ41inK3U3NdIkIGzyI2DInvxUvEuC');
+(1, 'Doug', '$2y$10$Fo4bJd7cGn8moBj8V4Kjme2KnQGPwn7nfFLJF8/rmF0l/8kDcjGyW'),
+(2, 'Andrew', '$2y$10$Fo4bJd7cGn8moBj8V4Kjme2KnQGPwn7nfFLJF8/rmF0l/8kDcjGyW');
 
 
 ALTER TABLE `users`
