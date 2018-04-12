@@ -56,7 +56,8 @@ class database_pdo
         $query = $this->db->prepare($query);
         $query->execute();
 
-        return $query->fetchAll();
+        // NOTE: By default, PDO fetches both numeric and associative keys.
+        return $query->fetchAll(PDO::FETCH_NUM);
     }
 }
 
