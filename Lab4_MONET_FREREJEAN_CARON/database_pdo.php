@@ -15,7 +15,7 @@ function getConnection()
     }
 
     if ($conn === NULL) {
-        $servername = "127.0.0.1:27222";
+        $servername = "localhost";
         $username = "lightmvcuser";
         $password = "testpass";
 
