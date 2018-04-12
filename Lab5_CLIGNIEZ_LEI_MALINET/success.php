@@ -8,9 +8,6 @@
 
     session_start();
 
-    if (isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false){
-        header("Location: index.php");
-    }
-?>
+    // Cannot redirect again. Must avoid the infinite redirect loop.
+    echo '<h2>You have logged in!</h2>';
 
-<h2>You have logged in!</h2>
