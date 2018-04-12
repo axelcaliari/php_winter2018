@@ -10,24 +10,37 @@
  * AJAX requests to it and display the result as a string in the Web page.
  *
  */
-$request = array(
-    "GET count" => 0,
-    "POST count" => 0,
-    "PUT count" => 0,
-    "PATCH count" => 0,
-    "DELET count" => 0,
-);
+if (!empty($_COOKIE["request"])) {
+    $request = json_decode($_COOKIE["request"], true);
 
-if(isset($_SERVER['REQUEST_METHOD'])) {
+    if(isset($_SERVER['REQUEST_METHOD'])) {
 
-    switch($_SERVER['REQUEST_METHOD'])
-    {
-        case 'GET': $request['GET count']++; $request["GET"] = $_GET; break;
-        case 'POST': $request['POST count']++; $request["GET"] = $_POST; break;
-        case 'PUT': $request['PUT count']++; $request["GET"] = $_PUT; break;
-        case 'PATCH': $request['PATCH count']++; $request["GET"] = $_PATCH; break;
-        case 'DELETE': $request['DELET count']++; $request["GET"] = $_DELETE; break;
+        switch($_SERVER['REQUEST_METHOD'])
+        {
+            case 'GET':
+                $request['GET count']++;
+                $request["GET"] = $_GET;
+                break;
+            case 'POST':
+                $request['POST count']++;
+                $request["POST"] = $_POST;
+                break;
+            case 'PUT':
+                $request['PUT count']++;
+                $request["PUT"] = $_PUT;
+                break;
+            case 'PATCH':
+                $request['PATCH count']++;
+                $request["PATCH"] = $_PATCH;
+                break;
+            case 'DELETE':
+                $request['DELETE count']++;
+                $request["DELETE"] = $_DELETE;
+                break;
+        }
+        $result = json_encode($request,JSON_PRETTY_PRINT);
+
+        echo ($result);
     }
-
-    echo json_encode($request);
 }
+
