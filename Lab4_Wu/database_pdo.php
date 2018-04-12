@@ -5,31 +5,35 @@
  * but by using the PDO classes.
  * http://php.net/manual/en/book.pdo.php
  */
- 
 
 function getConnection()
 {
-    if (!isset($link)) {
-        static $link = NULL;
+
+    if (!isset($pdo)) {
+        static $pdo = NULL;
     }
-    
-    if ($link === NULL) {
-		try{			
-			$link = new PDO('mysql:host=localhost;dbname=lightmvctestdb', 'lightmvctestdb', 'testpass');
-		}catch(PDOException $e){
-			echo "Error" . $e->getMessage();
-		}
+
+    if ($pdo === NULL) {
+
+        $type = "mysql";
+        $host = "localhost";
+        $username = "lightmvcuser";
+        $pwd = "testpass";
+        $dbname = "lightmvctestdb";
+        $dsn = "$type:host=$host;dbname=$dbname";
+
+        $pdo = new PDO($dsn, $username, $pwd);
     }
-    return $link;
+    return $pdo;
 }
 
 function closeConnection()
 {
-    if (!isset($link)) {
-        static $link = NULL;
+    if (!isset($pdo)) {
+        static $pdo = NULL;
         return FALSE;
     } else {
-		$link->connection = NULL;
+        $pdo = null;
         return TRUE;
     }
 }
@@ -52,23 +56,28 @@ function getCustomers(array $where = array(), $andOr = 'AND')
         }
         $query = substr($query, 0, -(strlen($andOr)));
     }
-    $link = getConnection();
-	$reponse = $link->query($query, PDO::FETCH_ASSOC);
-
-	return $reponse->fetch();
+    $pdo = getConnection();
+    $result = $pdo->prepare($query);
+    $result->execute();
+    return $result->fetchAll(PDO::FETCH_ASSOC);
 }
 
-$myArray = getCustomers(array('id' => '3'));
+$myArray = getCustomers();
+
 closeConnection();
 
-$htmlOut = "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<table>\n";
+$htmlOut = "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\n<table align='center'>\n";
 
-foreach ($myArray as $key => $value) {
-    $htmlOut .= "\t<tr>\n";	
-    $htmlOut .= "\t\t<td align=\"center\">$key : $value</td>\n";
+foreach ($myArray as $tableRow) {
+    $htmlOut .= "\t<tr>\n";
+    foreach ($tableRow as $tableCol) {
+        $htmlOut .= "\t\t<td align=\"center\"><h1>$tableCol</h1></td>\n";
+    }
     $htmlOut .= "\t</tr>\n";
 }
 
 $htmlOut .= "</table>\n</body>\n</html>";
 
 echo $htmlOut;
+
+

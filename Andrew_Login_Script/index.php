@@ -116,7 +116,6 @@ if (isset($_POST['submit'])
             } else {
 		
                 setcookie('loggedin', TRUE, time()+ 4200, '/');
-                session_set_cookie_params(4200);
                 $_SESSION['LOGGEDIN'] = TRUE;
                 $_SESSION['REMOTE_USER'] = $username;
                 $postLoginForm = FALSE;

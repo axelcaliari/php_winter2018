@@ -24,6 +24,7 @@ function session_obliterate()
 
 function session_secure_init()
 {
+    session_set_cookie_params(4200);
 
     $validSession = TRUE;
     
