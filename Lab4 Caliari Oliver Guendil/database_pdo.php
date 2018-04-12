@@ -15,7 +15,7 @@ function getConnection()
     
     if ($link === NULL) {
 		try{			
-			$link = new PDO('mysql:host=localhost;dbname=lightmvctestdb', 'root', 'axel');
+			$link = new PDO('mysql:host=localhost;dbname=lightmvctestdb', 'lightmvctestdb', 'testpass');
 		}catch(PDOException $e){
 			echo "Error" . $e->getMessage();
 		}
