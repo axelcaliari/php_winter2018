@@ -10,7 +10,6 @@ session_start(); ?>
 <html lang="en">
 <head>
     <title>Lab5 Login Page</title>
-
 </head>
 
 <?php
