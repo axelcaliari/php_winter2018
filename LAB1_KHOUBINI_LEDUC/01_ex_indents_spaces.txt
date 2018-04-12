@@ -1,8 +1,7 @@
 foobar { // I am a parent structure
     { // I am a subroutine
         // Code goes here
-    }
-    anotherFooBar { // Another subroutine
+    } anotherFooBar { // Another subroutine
         // Code goes here
     }
 }
