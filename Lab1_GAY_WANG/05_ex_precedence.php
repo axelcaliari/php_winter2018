@@ -8,4 +8,6 @@ echo "10" + "0.6", 44 . 1 . PHP_EOL;
  *
  * Please explain:
  *
+ * The comma separates echo's parameters and acts as a concatenation operator in this context.
+ *
  */
