@@ -26,25 +26,30 @@ $html = "<!DOCTYPE html>
 echo $html;
 
 if(isset($_POST['submit'])){	
-	try{
-		$link = new PDO('mysql:host=localhost;dbname=lab5', 'lightmvctestdb', 'testpass');
-		
-		$query = "SELECT * from login WHERE login='" . $_POST['login'] . "' AND mdp='" . $_POST['mdp'] . "'";
-		$reponse = $link->query($query);
-		$row = $reponse->fetch();
+    try{
+        $link = new PDO('mysql:host=localhost;dbname=lab5', 'lightmvctestdb', 'testpass');
 
-		$mdp = $row["mdp"];
-		
-		if($mdp == $_POST["mdp"])
-			echo "You are connected";
+        /*
+         * Sanitizing, filtering and validating the $_POST array would be important.
+         * Storing the password in plain text is not a good idea.
+         *
+         */
+        $query = "SELECT * from login WHERE login='" . $_POST['login'] . "' AND mdp='" . $_POST['mdp'] . "'";
+        $reponse = $link->query($query);
+        $row = $reponse->fetch();
 
-		else
-			echo "Connexion failed";
-			
-	}catch(PDOException $e){
-		echo $e->getMessage();
-	}	
-	
+        $mdp = $row["mdp"];
+
+        if($mdp == $_POST["mdp"])
+            echo "You are connected";
+
+        else
+            echo "Connexion failed";
+
+    }catch(PDOException $e){
+        echo $e->getMessage();
+    }
+
 }
 
 
