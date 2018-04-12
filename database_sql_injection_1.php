@@ -36,7 +36,7 @@ function getQuote()
 function getCustomers()
 {
     $id = isset($_GET['id']) ? $_GET['id'] : '1';
-    $query = 'SELECT `id`,`firstname`,`lastname` FROM `customers` WHERE id = ' . $id;
+    $query = 'SELECT `id`,`firstname`,`lastname` FROM `customers` WHERE id = ' . $id; //unsafe
     $link = getConnection();
     $result = mysqli_query($link, $query);
     return mysqli_fetch_all($result);
