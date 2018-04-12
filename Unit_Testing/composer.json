@@ -1,0 +1,15 @@
+{
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-0": { "": "./" },
+        "classmap": ["./", "./tests"]
+    },
+    "scripts": {
+        "check": [
+            "@test"
+        ],
+        "test": "phpunit"
+    }
+}
