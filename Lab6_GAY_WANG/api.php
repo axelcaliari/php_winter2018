@@ -7,14 +7,15 @@
  */
 
 
-$myfile = fopen("test.txt", "r") or die("Unable to open file!");
-$requestCounter =  fread($myfile,filesize("test.txt"));
-fclose($myfile);
-$requestCounter++;
+$myfile = fopen("test.txt", "r+") or die("Unable to open file!");
+
+$requestCounter =  fread($myfile, filesize("test.txt"));
+$requestCounter = empty($requestCounter) ? 1 : $requestCounter;
 $myJSON = json_encode($requestCounter);
-echo $myJSON;
-$myfile = fopen("test.txt", "w") or die("Unable to open file!");
+$requestCounter++;
+
+rewind($myfile);
 fwrite($myfile, $requestCounter);
 fclose($myfile);
 
-
+echo $myJSON;
