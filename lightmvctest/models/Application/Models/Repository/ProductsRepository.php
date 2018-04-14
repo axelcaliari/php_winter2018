@@ -28,6 +28,20 @@ class ProductsRepository extends EntityRepository
         return true;
     }
 
+    public function delete(Products $products)
+    {
+        $this->products = $products;
+
+        try {
+            $this->_em->remove($this->products);
+            $this->_em->flush();
+        } catch (\Exception $e) {
+            return false;
+        }
+
+        return true;
+    }
+
     public function setData(Array $productArray, Products $products = NULL)
     {
         if (!$products) {

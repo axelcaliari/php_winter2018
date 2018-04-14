@@ -50,7 +50,7 @@ class Products {
      */
     public function setId($id)
     {
-        $this->id = $id;
+        $this->id = (int) $id;
     }
 
     /**
@@ -66,7 +66,7 @@ class Products {
      */
     public function setName($name)
     {
-        $this->name = $name;
+        $this->name = (string) $name;
     }
 
     /**
@@ -82,7 +82,7 @@ class Products {
      */
     public function setPrice($price)
     {
-        $this->price = $price;
+        $this->price = (float) $price;
     }
 
     /**
@@ -98,7 +98,7 @@ class Products {
      */
     public function setDescription($description)
     {
-        $this->description = $description;
+        $this->description = (string) $description;
     }
 
     /**
@@ -114,7 +114,7 @@ class Products {
      */
     public function setImage($image)
     {
-        $this->image = $image;
+        $this->image = (string) $image;
     }
 
 }
