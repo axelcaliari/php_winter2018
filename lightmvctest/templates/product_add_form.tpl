@@ -26,7 +26,7 @@
                 {foreach from=$view.links key=name item=link}
                   <li><a href="{$link}">{$name}</a></li>
                 {/foreach}
-                <!-- <li class="dropdown">
+                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Main Menu <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     {foreach from=$view.navMenu key=navMenuEntry item=navMenuLink}
@@ -35,7 +35,7 @@
                       <li role="separator" class="divider"></li>
                     {/foreach}
                   </ul>
-                </li> -->
+                </li> 
               </ul>
             </div>
           </div>
@@ -55,8 +55,25 @@
         
         <div id="pageBody">
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1>Welcome to {$view.appname}!</h1>
-            <p>Add: POST to /index/add, GET to /index/</p>
+              <h1>Add new product</h1>
+              <form method="post" target="/lightmvctest/public/index.php/product/add/" enctype="multipart/form-data">
+                  <label for="name">Name</label><br />
+                  <input type="text" name="name" id="name" size="30" /><br />
+                  <label for="price">Price</label><br />
+                  <input type="text" name="price" id="price" /><br />
+                  <label for="description">Description</label><br />
+                  <input type="text" name="description" id="description" size="100" /><br />
+                  <label for="image">Image</label><br />
+                  <input type="file" name="image" id="image"/><br />
+                  <input type="submit" name="submit" /><br />
+              </form>
+              {if $view.saved == 1}
+                  <div class="alert-success"><p>The product has been saved!</p></div>
+              {/if}
+              {if $view.error == 1}
+                  <div class="alert-danger"><p>The product has not been created! Please try again.</p></div>
+              {/if}
+              <p><br /><br /><a href="/lightmvctest/public/index.php/product/index/">List products</a><br /><br /></p>
           </div>
         </div> <!-- END pageBody -->
         
@@ -64,7 +81,7 @@
     </div>
 
 {if $view.bodyjs == 1}
-{include file='bodyjs.tpl'}
+    {include file='bodyjs.tpl'}
 {/if}
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

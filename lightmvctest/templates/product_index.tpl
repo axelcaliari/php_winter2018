@@ -26,7 +26,7 @@
                 {foreach from=$view.links key=name item=link}
                   <li><a href="{$link}">{$name}</a></li>
                 {/foreach}
-                <!-- <li class="dropdown">
+                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Main Menu <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     {foreach from=$view.navMenu key=navMenuEntry item=navMenuLink}
@@ -35,7 +35,7 @@
                       <li role="separator" class="divider"></li>
                     {/foreach}
                   </ul>
-                </li> -->
+                </li> 
               </ul>
             </div>
           </div>
@@ -55,8 +55,37 @@
         
         <div id="pageBody">
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1>Welcome to {$view.appname}!</h1>
-            <p>Add: POST to /index/add, GET to /index/</p>
+            <h1>Products page</h1>
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>Price</th>
+                      <th>Description</th>
+                      <th>Image</th>
+                      <th>Options</th>
+                  </tr>
+                </thead>
+                  {foreach from=$view.results item=product}
+                    <tr>
+                        <td>{$product.id}</td>
+                        <td>{$product.name}</td>
+                        <td>{$product.price}</td>
+                        <td>{$product.description}</td>
+                        <td>{$product.image}</td>
+                        <td>
+                            <a href="index.php/product/edit/{$product.id}">Modify</a>
+                        </td>
+                        <td>
+                            <a href="index.php/product/delete/{$product.id}">Delete</a>
+                        </td>
+                    </tr>
+                  {/foreach}
+              </table>
+            </div>
+            <p><a href="/lightmvctest/public/index.php/product/add/">Add new product</a></p>
           </div>
         </div> <!-- END pageBody -->
         
