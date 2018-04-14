@@ -6,16 +6,16 @@ use \Ascmvc\AbstractApp;
 use \Ascmvc\Mvc\Controller;
 
 
-class C404Controller extends Controller {
-    
-    
-    public static function config(AbstractApp &$app)
-    {
-        IndexController::config($app);
-    }
+class NotfoundController extends Controller
+{
 
     public function indexAction()
     {
+        echo 'BOOM!';
+        exit;
+
+        header('HTTP/1.0 404 Not Found', true, 404);
+
         $this->view['bodyjs'] = 1;
         
         $this->view['pageBody'] = "\t\t\t<div class=\"col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main\">";
@@ -25,7 +25,7 @@ class C404Controller extends Controller {
         
         $this->viewObject->assign('view', $this->view);
         
-        $this->viewObject->display('index.tpl');
+        $this->viewObject->display('index_index.tpl');
     }
     
 }
