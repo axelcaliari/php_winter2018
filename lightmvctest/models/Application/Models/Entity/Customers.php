@@ -29,7 +29,7 @@ class Customers {
     
     
     /**
-     * @return the $id
+     * @return mixed $id
      */
     public function getId()
     {
@@ -37,7 +37,7 @@ class Customers {
     }
 
     /**
-     * @return the $firstName
+     * @return mixed $firstName
      */
     public function getFirstName()
     {
@@ -45,7 +45,7 @@ class Customers {
     }
 
     /**
-     * @return the $lastName
+     * @return mixed $lastName
      */
     public function getLastName()
     {
