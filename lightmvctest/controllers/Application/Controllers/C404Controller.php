@@ -6,14 +6,11 @@ use \Ascmvc\AbstractApp;
 use \Ascmvc\Mvc\Controller;
 
 
-class NotfoundController extends Controller
+class C404Controller extends Controller
 {
 
     public function indexAction()
     {
-        echo 'BOOM!';
-        exit;
-
         header('HTTP/1.0 404 Not Found', true, 404);
 
         $this->view['bodyjs'] = 1;
