@@ -8,6 +8,10 @@ use \Ascmvc\Mvc\Controller;
 
 class C404Controller extends Controller
 {
+    public static function config(AbstractApp &$app)
+    {
+        IndexController::config($app);
+    }
 
     public function indexAction()
     {
@@ -22,7 +26,7 @@ class C404Controller extends Controller
         
         $this->viewObject->assign('view', $this->view);
         
-        $this->viewObject->display('index_index.tpl');
+        $this->viewObject->display('c404_index.tpl');
     }
     
 }

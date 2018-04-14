@@ -30,7 +30,7 @@ class CrudProductsService
     public function create(Array $array)
     {
         try {
-            $this->productsRepository->save($array, $this->products);
+            $this->productsRepository->save($array);
         } catch (\Exception $e) {
             return false;
         }
@@ -57,7 +57,10 @@ class CrudProductsService
     public function update(Array $array)
     {
         try {
-            $this->productsRepository->save($array, $this->products);
+            if (isset($array['id'])) {
+                $products = $this->getEm()->find(Products::class, $array['id']);
+                $this->productsRepository->save($array, $products);
+            }
         } catch (\Exception $e) {
             return false;
         }
@@ -67,12 +70,13 @@ class CrudProductsService
 
     public function delete(int $id)
     {
-        $this->products->setId($array['id']);
-        $this->products->setName($array['name']);
-        $this->products->setPrice($array['price']);
-        $this->products->setDescription($array['description']);
-        $this->products->setImage($array['image']);
+        try {
+            $products = $this->getEm()->find(Products::class, $id);
+            $this->productsRepository->delete($products);
+        } catch (\Exception $e) {
+            return false;
+        }
 
-        $this->em->remove($this->product);
+        return true;
     }
 }

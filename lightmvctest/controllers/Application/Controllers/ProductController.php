@@ -92,36 +92,65 @@ class ProductController extends Controller {
         }
 
         $this->viewObject->assign('view', $this->view);
-
         $this->viewObject->display('product_add_form.tpl');
     }
 
-    public function updateAction()
+    public function editAction()
     {
-        if (empty($_POST)) {
+        $this->view['bodyjs'] = 1;
+
+        if (!empty($_POST)) {
             // Would have to sanitize and filter the $_POST array.
             $productArray['id'] = (string) $_POST['id'];
             $productArray['name'] = (string) $_POST['name'];
             $productArray['price'] = (string) $_POST['price'];
             $productArray['description'] = (string) $_POST['description'];
-            $productArray['image'] = (string) $_POST['image'];
 
-            $this->crudProducts->update($productArray);
+            if (!empty($_FILES['image']['name'])) {
+                $productArray['image'] = (string) $_FILES['image']['name'];
+
+            } else {
+                $productArray['image'] = (string) $_POST['imageoriginal'];
+            }
+
+            if ($this->crudProducts->update($productArray)) {
+                $this->view['saved'] = 1;
+            } else {
+                $this->view['error'] = 1;
+            }
         } else {
-            header('Redirect: ' . URLBASEADDR, true, 301);
+            $results = $this->readProducts();
+
+            if (is_object($results)) {
+                $results = [$this->hydrateArray($results)];
+            } else {
+                for ($i = 0; $i < count($results); $i++) {
+                    $results[$i] = $this->hydrateArray($results[$i]);
+                }
+            }
+
+            $this->view['results'] = $results;
         }
+
+        $this->viewObject->assign('view', $this->view);
+        $this->viewObject->display('product_edit_form.tpl');
     }
 
     public function deleteAction()
     {
-        if (empty($_POST)) {
-            // Would have to sanitize and filter the $_POST array.
-            $id = (string) $_POST['id'];
+        if (!empty($_GET)) {
+            // Would have to sanitize and filter the $_GET array.
+            $id = (int) $_GET['id'];
 
-            $this->crudProducts->delete($id);
-        } else {
-            header('Redirect: ' . URLBASEADDR, true, 301);
+            if ($this->crudProducts->delete($id)) {
+                $this->view['saved'] = 1;
+            } else {
+                $this->view['error'] = 1;
+            }
         }
+
+        $this->viewObject->assign('view', $this->view);
+        $this->viewObject->display('product_delete.tpl');
     }
     
 }
