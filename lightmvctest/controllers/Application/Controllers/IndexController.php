@@ -13,6 +13,7 @@ class IndexController extends Controller
         $baseConfig = $app->getBaseConfig();
 
         $view = [
+            'urlbaseaddr' => $baseConfig['URLBASEADDR'],
             'logo' => $baseConfig['URLBASEADDR'] . 'img/logo.png',
             'favicon' => $baseConfig['URLBASEADDR'] . 'favicon.ico',
             'appname' => $baseConfig['appName'],

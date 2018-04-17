@@ -23,7 +23,7 @@
         <div id="pageBody">
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1>Oops! This ain't Kansas anymore!</h1>
-            <p>Let's go back <a href="/lightmvctest/public/index.php/index/index">HOME</a>!</p>
+            <p>Let's go back <a href="{$view.urlbaseaddr}index.php/index/index">HOME</a>!</p>
           </div>
         </div> <!-- END pageBody -->
         
