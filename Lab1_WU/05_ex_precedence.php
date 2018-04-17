@@ -10,4 +10,7 @@ echo "10" + "0.6", 44 . 1 . PHP_EOL;
  * The comma and the point cast the integers 44 and 1 into string then concatenate them with the string
  * "10.6". So the result "10.6441" is printed.
  *
+ * ASC: The comma is only a delimiter for function parameters.
+ * But, in this case, it acts like a concatenation operator.
+ *
  */
