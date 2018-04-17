@@ -9,7 +9,9 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity(repositoryClass="Application\Models\Repository\ProductsRepository")
  * @ORM\Table("products")
  */
-class Products {
+class Products
+{
+
     /**
      * @ORM\Id
      * @ORM\Column(type="integer", length=11)
@@ -116,5 +118,4 @@ class Products {
     {
         $this->image = (string) $image;
     }
-
 }

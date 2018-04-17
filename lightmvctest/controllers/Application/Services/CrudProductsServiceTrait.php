@@ -4,6 +4,7 @@ namespace Application\Services;
 
 trait CrudProductsServiceTrait
 {
+
     protected $crudProducts;
 
     /**

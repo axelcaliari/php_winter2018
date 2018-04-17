@@ -4,12 +4,13 @@ namespace Application\Models\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
-
 /**
  * @ORM\Entity("Application\Models\Entity\Customers")
  * @ORM\Table("customers")
  */
-class Customers {
+class Customers
+{
+
     /**
      * @ORM\Id
      * @ORM\Column(type="integer", length=11)
@@ -26,8 +27,8 @@ class Customers {
      * @ORM\Column(type="string", length=32, name="lastname")
      */
     protected $lastName;
-    
-    
+
+
     /**
      * @return mixed $id
      */
@@ -51,5 +52,4 @@ class Customers {
     {
         return $this->lastName;
     }
-
 }

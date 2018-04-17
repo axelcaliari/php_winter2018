@@ -4,6 +4,7 @@ namespace Application\Models\Traits;
 
 trait DoctrineTrait
 {
+
     protected $em;
 
     /**

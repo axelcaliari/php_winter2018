@@ -8,7 +8,8 @@ use Application\Services\CrudProductsService;
 use Application\Services\CrudProductsServiceTrait;
 use Application\Models\Entity\Products;
 
-class ProductController extends Controller {
+class ProductController extends Controller
+{
 
     use CrudProductsServiceTrait;
 
@@ -50,15 +51,11 @@ class ProductController extends Controller {
     protected function readProducts()
     {
         if (!empty($_GET)) {
-
             $id = (int) $_GET['id'];
 
             return $this->getCrudProducts()->read($id);
-
         } else {
-
             return $this->getCrudProducts()->read();
-
         }
     }
 
@@ -75,8 +72,6 @@ class ProductController extends Controller {
 
     public function addAction()
     {
-        $this->view['bodyjs'] = 1;
-
         if (!empty($_POST)) {
             // Would have to sanitize and filter the $_POST array.
             $productArray['name'] = (string) $_POST['name'];
@@ -91,14 +86,15 @@ class ProductController extends Controller {
             }
         }
 
+        $this->view['bodyjs'] = 1;
+
         $this->viewObject->assign('view', $this->view);
+
         $this->viewObject->display('product_add_form.tpl');
     }
 
     public function editAction()
     {
-        $this->view['bodyjs'] = 1;
-
         if (!empty($_POST)) {
             // Would have to sanitize and filter the $_POST array.
             $productArray['id'] = (string) $_POST['id'];
@@ -108,7 +104,6 @@ class ProductController extends Controller {
 
             if (!empty($_FILES['image']['name'])) {
                 $productArray['image'] = (string) $_FILES['image']['name'];
-
             } else {
                 $productArray['image'] = (string) $_POST['imageoriginal'];
             }
@@ -132,7 +127,10 @@ class ProductController extends Controller {
             $this->view['results'] = $results;
         }
 
+        $this->view['bodyjs'] = 1;
+
         $this->viewObject->assign('view', $this->view);
+
         $this->viewObject->display('product_edit_form.tpl');
     }
 
@@ -150,7 +148,7 @@ class ProductController extends Controller {
         }
 
         $this->viewObject->assign('view', $this->view);
+
         $this->viewObject->display('product_delete.tpl');
     }
-    
 }
