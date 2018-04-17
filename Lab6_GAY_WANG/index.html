@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>API test</title>
+</head>
+<body>
+<h1>A request will be sent every 2 secs</h1>
+
+<p id="request_num"></p>
+
+<script>
+    setInterval(function(){
+        $.ajax({
+            url: 'api.php',
+            dataType: 'json',
+            success: function (resp) {
+                console.log("success");
+                console.log(resp);
+                document.getElementById("request_num").innerHTML = "Number of requests sent : " + resp;
+            },
+            error: function (req, status, err) {
+                console.log('Something went wrong', status, err);
+            }
+        });
+    }, 2000); // 2 seconds
+</script>
+</body>
+</html>
