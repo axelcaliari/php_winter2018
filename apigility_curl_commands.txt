@@ -1,0 +1,8 @@
+# HTTP/1.1 406 Not Acceptable
+curl -H "Accept: text/html" http://localhost:8888/ping
+# HTTP/1.1 405 Method Not Allowed
+curl -X POST http://localhost:8888/ping
+# HTTP/1.1 200 OK
+# Response: {"ack":1524106977}
+curl http://localhost:8888/ping
+curl -H "Accept: application/json" http://localhost:8888/ping
