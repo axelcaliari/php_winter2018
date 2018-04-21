@@ -1,8 +1,29 @@
 # HTTP/1.1 406 Not Acceptable
-curl -H "Accept: text/html" http://localhost:8888/ping
+curl -v -H "Accept: text/html" http://localhost:8888/ping
 # HTTP/1.1 405 Method Not Allowed
-curl -X POST http://localhost:8888/ping
+curl -v -X POST http://localhost:8888/ping
 # HTTP/1.1 200 OK
 # Response: {"ack":1524106977}
-curl http://localhost:8888/ping
-curl -H "Accept: application/json" http://localhost:8888/ping
+curl -v http://localhost:8888/ping
+curl -v -H "Accept: application/json" http://localhost:8888/ping
+# Not acceptable
+curl -v -H "Accept: text/html" http://localhost:8080/status
+# Acceptable
+curl -v -H "Accept: application/json" http://localhost:8080/status
+# Forbidden
+curl -v -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://localhost:8080/status -d '{ "message": "First post!", "user": "admin" }'
+# Authentication and authorization - HTTP/1.1 201 Created
+curl -v -H "Accept: application/json" -H "Content-Type: application/json" -X POST http://localhost:8080/status -d '{ "message": "First post!", "user": "admin" }' -u admin
+# Based on previous answer
+curl -v -H "Accept: application/json" http://localhost:8080/status/6fefe533-eeb4-45bf-a01f-ffe6f37294eb
+# Collection no longer empty!
+curl -v -H "Accept: application/json" http://localhost:8080/status
+# Update the entity
+curl -v -H "Accept: application/json" -H "Content-Type: application/json" -X PATCH http://localhost:8080/status/6fefe533-eeb4-45bf-a01f-ffe6f37294eb -d '{ "message": "[Updated] First post!" }' -u admin
+curl -v -H "Accept: application/json" http://localhost:8080/status/6fefe533-eeb4-45bf-a01f-ffe6f37294eb
+# Delete the entity - 204 No content
+curl -v -H "Accept: application/json" -H "Content-Type: application/json" -X DELETE http://localhost:8080/status/6fefe533-eeb4-45bf-a01f-ffe6f37294eb -u admin
+# 404 Not found
+curl -v -H "Accept: application/json" http://localhost:8080/status/6fefe533-eeb4-45bf-a01f-ffe6f37294eb
+# Empty collection again
+curl -v -H "Accept: application/json" http://localhost:8080/status

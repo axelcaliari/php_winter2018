@@ -24,6 +24,7 @@ return [
     'ZF\\Rest',
     'ZF\\Rpc',
     'ZF\\Versioning',
+    'StatusLib',
     'Application',
     'Heartbeat',
 ];
