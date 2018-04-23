@@ -7,6 +7,7 @@ use Doctrine\ORM\EntityRepository;
 
 class ProductsRepository extends EntityRepository
 {
+
     protected $products;
 
     public function findAll()
@@ -14,7 +15,7 @@ class ProductsRepository extends EntityRepository
         return $this->findBy([], ['id' => 'ASC']);
     }
 
-    public function save(Array $productArray, $products = NULL)
+    public function save(array $productArray, $products = null)
     {
         $this->products = $this->setData($productArray, $products);
 
@@ -42,7 +43,7 @@ class ProductsRepository extends EntityRepository
         return true;
     }
 
-    public function setData(Array $productArray, Products $products = NULL)
+    public function setData(array $productArray, Products $products = null)
     {
         if (!$products) {
             $this->products = new Products();

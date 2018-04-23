@@ -1,0 +1,615 @@
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-23.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view.user}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo $view}" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "{echo($view.user["firstname"])}" unknown function "echo"
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-22.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-22.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+[Semantical Error] line 0, col 60 near 'firstname = ': Error: Class Application\Models\Entity\Customers has no field or association named firstname
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-22.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+An exception occured in driver: SQLSTATE[HY000] [1045] Access denied for user 'gregoire'@'host-224-22.qcmoesv.montreal.qc.ca.clients.pavlovmedia.net' (using password: YES)
+[Semantical Error] line 0, col 60 near 'firstname = ': Error: Class Application\Models\Entity\Customers has no field or association named firstname
+[Semantical Error] line 0, col 60 near 'firstname = ': Error: Class Application\Models\Entity\Customers has no field or association named firstname
+[Semantical Error] line 0, col 60 near 'firstname = ': Error: Class Application\Models\Entity\Customers has no field or association named firstname
+[Semantical Error] line 0, col 60 near 'firstname = ': Error: Class Application\Models\Entity\Customers has no field or association named firstname
+[Semantical Error] line 0, col 60 near 'firstname = ': Error: Class Application\Models\Entity\Customers has no field or association named firstname
+[Semantical Error] line 0, col 60 near 'firstname = ': Error: Class Application\Models\Entity\Customers has no field or association named firstname
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 17 "<b>Customer ID:</b> {$view.user.getFirstName()}<br>"  - Unexpected "(", expected one of: "}"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 11 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 11 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 11 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 11 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 11 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 11 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 10 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 10 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 10 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 18 "<b>Customer ID:</b> {$view.user.getId()}<br>"  - Unexpected "(", expected one of: "}"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 18 "<b>Customer ID:</b> {$view.user.getId()}<br>"  - Unexpected "(", expected one of: "}"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 18 "<b>Customer ID:</b> {$view.user.getId()}<br>"  - Unexpected "(", expected one of: "}"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\user_account.tpl"  on line 18 "<b>Customer ID:</b> {$view.user.getId()}<br>"  - Unexpected "(", expected one of: "}"
+An exception occurred while executing 'SELECT p0_.id AS id_0, p0_.name AS name_1, p0_.price AS price_2, p0_.description AS description_3, p0_.image AS image_4 FROM products p0_':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p0_.image' in 'field list'
+An exception occurred while executing 'SELECT p0_.id AS id_0, p0_.name AS name_1, p0_.price AS price_2, p0_.description AS description_3, p0_.image AS image_4 FROM products p0_':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p0_.image' in 'field list'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+[Semantical Error] line 0, col 59 near 'Id = :id': Error: Class Application\Models\Entity\Products has no field or association named Id
+[Semantical Error] line 0, col 59 near 'Id = :id': Error: Class Application\Models\Entity\Products has no field or association named Id
+[Semantical Error] line 0, col 59 near 'Id = :id': Error: Class Application\Models\Entity\Products has no field or association named Id
+An exception occurred while executing 'SELECT p0_.id AS id_0, p0_.name AS name_1, p0_.price AS price_2, p0_.description AS description_3, p0_.image AS image_4 FROM products p0_ WHERE p0_.id = ?' with params [1]:
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p0_.image' in 'field list'
+An exception occurred while executing 'SELECT p0_.id AS id_0, p0_.name AS name_1, p0_.price AS price_2, p0_.description AS description_3, p0_.image AS image_4 FROM products p0_ WHERE p0_.id = ?' with params [1]:
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p0_.image' in 'field list'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+An exception occurred while executing 'SELECT p0_.id AS id_0, p0_.name AS name_1, p0_.price AS price_2, p0_.description AS description_3, p0_.image AS image_4 FROM products p0_ WHERE p0_.id = ?' with params [1]:
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p0_.image' in 'field list'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+[Syntax Error] line 0, col 7: Error: Expected IdentificationVariable | ScalarExpression | AggregateExpression | FunctionDeclaration | PartialObjectExpression | "(" Subselect ")" | CaseExpression, got '*'
+[Semantical Error] line 0, col 14 near 'Application\Models\Entity\Product': Error: Class 'Application\Models\Entity\Product' is not defined.
+[Semantical Error] line 0, col 14 near 'Application\Models\Entity\Product': Error: Class 'Application\Models\Entity\Product' is not defined.
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+An exception occurred while executing 'SELECT p0_.id AS id_0, p0_.name AS name_1, p0_.price AS price_2, p0_.description AS description_3, p0_.image AS image_4 FROM products p0_ WHERE p0_.id = ?' with params [1]:
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p0_.image' in 'field list'
+[Semantical Error] line 0, col 14 near 'Application\Models\Entity\Product': Error: Class 'Application\Models\Entity\Product' is not defined.
+[Semantical Error] line 0, col 14 near 'Application\Models\Entity\Product': Error: Class 'Application\Models\Entity\Product' is not defined.
+[Semantical Error] line 0, col 14 near 'Application\Models\Entity\Product': Error: Class 'Application\Models\Entity\Product' is not defined.
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+An exception occurred while executing 'SELECT * FROM products WHERE id != :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'SELECT * FROM products WHERE id != :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'SELECT * FROM products WHERE id != :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'SELECT * FROM products WHERE id != :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'SELECT * FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'SELECT * FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'SELECT * FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'navbar.tpl' in 'product_index.tpl'
+Unable to load template file 'product_post.tpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_addtpl'
+Unable to load template file 'product_add.tpl'
+Unable to load template file 'product_add.tpl'
+Unable to load template file 'product_add.tpl'
+Unable to load template file 'product_add.tpl'
+Unable to load template file 'product_add.tpl'
+Unable to load template file 'product_add.tpl'
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, :name, :description, :picture, :price)' with params ["greg"]:
+
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)' with params ["greg", "blabl", "zdqzdqzdddzqdqzdzqd ", "34"]:
+
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)' with params ["greg", "blabl", "zdqzdqzdddzqdqzdzqd ", "34"]:
+
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)' with params ["greg", "etyuiop", "ezfefsfes", "34"]:
+
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, ?, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, greg, ?, ?, ?)':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, greg, etyuiop, ezfefsfes, 34)':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'greg' in 'field list'
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, greg, etyuiop, ezfefsfes, 34)':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'greg' in 'field list'
+An exception occurred while executing 'INSERT INTO products (id, name, description, picture, price) VALUES(3, greg, etyuiop, ezfefsfes, 34)':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'greg' in 'field list'
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(greg, etyuiop, ezfefsfes, 34)':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'greg' in 'field list'
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(greg, etyuiop, ezfefsfes, 34)':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'greg' in 'field list'
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(greg, tyvyv, zdqzdqzdddzqdqzdzqd , 333)':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'greg' in 'field list'
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES($_POST["name"], $_POST["description"], $_POST["picture"], $_POST["price"])':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["name"], $_POST["description"], $_POST["picture"], $_POST["price"])' at line 1
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES($_POST["name"], $_POST["description"], $_POST["picture"], $_POST["price"])':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["name"], $_POST["description"], $_POST["picture"], $_POST["price"])' at line 1
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(ddddd, zqdqzd, zqdqzdqz, 33)':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ddddd' in 'field list'
+An exception occurred while executing 'INSERT INTO products (name, description, picture, price) VALUES(ddddd', zqdqzd, zqdqzdqz, 33)':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', zqdqzd, zqdqzdqz, 33)' at line 1
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\head.tpl"  on line 48 "{$_SESSION['user'])}"  - Unexpected ")", expected one of: "}"
+An exception occurred while executing 'SELECT * FROM products ORDER BY ASC ASC':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC ASC' at line 1
+An exception occurred while executing 'SELECT * FROM products ASC':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+An exception occurred while executing 'SELECT * FROM products ASC':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+An exception occurred while executing 'SELECT * FROM products ASC':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+An exception occurred while executing 'SELECT * FROM products ASC':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1
+An exception occurred while executing 'DELETE FROM products Array':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+An exception occurred while executing 'DELETE FROM products Array':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Array' at line 1
+An exception occurred while executing 'DELETE FROM products WHERE id = ?':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = ?':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = ?':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = idnnn':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idnnn' in 'where clause'
+An exception occurred while executing 'DELETE FROM products WHERE id = idnnn':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idnnn' in 'where clause'
+An exception occurred while executing 'DELETE FROM products WHERE id = idnnn':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idnnn' in 'where clause'
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products p WHERE p.id = :product_id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = idnnn':
+
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'idnnn' in 'where clause'
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idnnn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = ?':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = ?':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = ?':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = ?':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :id':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM products WHERE id = :idn':
+
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+An exception occurred while executing 'DELETE FROM Products WHERE id = 2;':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbtest.Products' doesn't exist
+An exception occurred while executing 'DELETE FROM Products WHERE id = 2;':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbtest.Products' doesn't exist
+An exception occurred while executing 'DELETE FROM Products WHERE id = 2;':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbtest.Products' doesn't exist
+An exception occurred while executing 'SELECT FROM Products WHERE id = 9':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Products WHERE id = 9' at line 1
+An exception occurred while executing 'SELECT FROM Products WHERE id = 9':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Products WHERE id = 9' at line 1
+An exception occurred while executing 'SELECT FROM Products WHERE id = 9':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Products WHERE id = 9' at line 1
+An exception occurred while executing 'SELECT FROM Products WHERE id = 9':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Products WHERE id = 9' at line 1
+An exception occurred while executing 'SELECT FROM Products WHERE id = 9':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Products WHERE id = 9' at line 1
+An exception occurred while executing 'SELECT FROM Products WHERE id = 9':
+
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Products WHERE id = 9' at line 1
+An exception occurred while executing 'DELETE FROM Products WHERE id = 11':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbtest.Products' doesn't exist
+An exception occurred while executing 'DELETE FROM Products WHERE id = 11':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbtest.Products' doesn't exist
+Unable to load template file 'product_update.tpl'
+Unable to load template file 'product_update.tpl'
+Unable to load template file 'product_update.tpl'
+Unable to load template file 'product_update.tpl'
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 
+An exception occured in driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Hôte inconnu. 

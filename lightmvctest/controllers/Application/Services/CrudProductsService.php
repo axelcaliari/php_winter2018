@@ -10,6 +10,7 @@ use Doctrine\ORM\Mapping\ClassMetadata;
 
 class CrudProductsService
 {
+
     use DoctrineTrait;
 
     protected $products;
@@ -24,10 +25,11 @@ class CrudProductsService
 
         $this->productsRepository = new ProductsRepository(
             $this->em,
-            new ClassMetaData('Application\Models\Entity\Products'));
+            new ClassMetaData('Application\Models\Entity\Products')
+        );
     }
 
-    public function create(Array $array)
+    public function create(array $array)
     {
         try {
             $this->productsRepository->save($array);
@@ -46,7 +48,6 @@ class CrudProductsService
             } else {
                 $results = $this->productsRepository->findAll();
             }
-
         } catch (\Exception $e) {
             return false;
         }
@@ -54,7 +55,7 @@ class CrudProductsService
         return $results;
     }
 
-    public function update(Array $array)
+    public function update(array $array)
     {
         try {
             if (isset($array['id'])) {

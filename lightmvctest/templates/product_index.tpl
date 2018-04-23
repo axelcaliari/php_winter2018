@@ -43,16 +43,16 @@
                         <td>{$product.description}</td>
                         <td>{$product.image}</td>
                         <td>
-                            <a href="/lightmvctest/public/index.php/product/edit/?id={$product.id}">Modify</a>
+                            <a href="{$view.urlbaseaddr}{$view.urlbaseaddr}index.php/product/edit/?id={$product.id}">Modify</a>
                         </td>
                         <td>
-                            <a href="/lightmvctest/public/index.php/product/delete/?id={$product.id}">Delete</a>
+                            <a href="{$view.urlbaseaddr}index.php/product/delete/?id={$product.id}">Delete</a>
                         </td>
                     </tr>
                   {/foreach}
               </table>
             </div>
-            <p><a href="/lightmvctest/public/index.php/product/add/">Add new product</a></p>
+            <p><a href="{$view.urlbaseaddr}index.php/product/add/">Add new product</a></p>
           </div>
         </div> <!-- END pageBody -->
         
