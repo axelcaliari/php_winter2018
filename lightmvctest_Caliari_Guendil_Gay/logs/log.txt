@@ -1,0 +1,31 @@
+	Unable to load template file 'index_test.tpl'
+Unable to load template file 'index.tpl'
+Unable to load template file 'index.tpl'
+Unable to load template file 'index.tpl'
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 25 "<p>{echo "allo";}</p>" unknown tag "echo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 25 "<p>{allo}</p>" unknown tag "allo"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 25 "<p>{view.loggedin = 1}</p>"  - Unexpected ".", expected one of: "}"
+Class 'Application\Controllers\Customers' does not exist
+Class 'Application\Controllers\Products' does not exist
+Class 'Application\Controllers\Users' does not exist
+No identifier/primary key specified for Entity "Application\Models\Entity\Users". Every Entity must have an identifier/primary key.
+No identifier/primary key specified for Entity "Application\Models\Entity\Users". Every Entity must have an identifier/primary key.
+No identifier/primary key specified for Entity "Application\Models\Entity\Users". Every Entity must have an identifier/primary key.
+The identifier id is missing for a query of Application\Models\Entity\Users
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 32 "{else}" unexpected closing tag
+Single id is not allowed on composite primary key in entity Application\Models\Entity\Users
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 4 "{session_start();}"  - Unexpected ";", expected one of: "}"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\product_edit_form.tpl"  on line 45 "{else if $view.permission == 0}" unexpected closing tag
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\product_edit_form.tpl"  on line 45 "{elseif $view.permission == 0}" unexpected closing tag
+Unable to load template file 'index.php/product/index'
+Unable to load template file 'index.php/product/index'
+Unable to load template file 'index.php/product/index'
+Unable to load template http '//localhost/lightmvctest/public/index.php/product/index'
+Unable to load template file 'lightmvctest/public/index.php/product/index'
+Unable to load template file 'lightmvctest/public/index.php'
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\product_index.tpl"  on line 44 "<td>{html_image file=$product.image|cat"yes"}</td>"  - Unexpected """, expected one of: "}"
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\product_index.tpl"  on line 46 "<a href="/lightmvctest/public/index.php/product/edit/?id={$product.id}">Modify</a>"  - Unexpected ".", expected one of: "}"
+{html_image file="http://localhost/lightmvctest/public/img/computer_3.5_diskettes.png"}Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 9 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 9 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 9 "{php}" {php}[/php} tags not allowed. Use SmartyBC to enable them
+Syntax error in template "C:\wamp64\www\lightmvctest\templates\login.tpl"  on line 29 "<div class="alert-success"><p>You are logged in as {$smarty.session.*}!</p></div>"  - Unexpected "*"
